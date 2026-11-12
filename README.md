@@ -1,17 +1,7 @@
 # netwatch
 
-a lightweight TCP connection monitoring utility for Linux
-netwatch checks TCP connectivity to a specified host and port, measures connection latency, and displays basic connection statistics.
-
-## Features
-
-- TCP connectivity checks
-- Connection latency measurement
-- Success and failure statistics
-- Custom host, port, and attempt count
-- Verbose logging
-- Lightweight, statically compiled binary
-
+a lightweight Linux CLI tool for checking TCP connectivity, measuring latency, and displaying connection statistics.
+(educational project)
 ## Usage
 
 ```bash
