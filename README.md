@@ -2,13 +2,13 @@
 
 a lightweight Linux CLI tool for checking TCP connectivity, measuring latency, and displaying connection statistics.
 (educational project)
-## Usage
+## usage
 
 ```bash
 ./netwatch -ip 1.1.1.1 -p 443 -c 5
 ```
 
-### Flags
+### flags
 
 | Flag | Description | Default |
 |---|---|---|
@@ -18,14 +18,11 @@ a lightweight Linux CLI tool for checking TCP connectivity, measuring latency, a
 | `-vb` | Enable verbose logging | `false` |
 
 ## Build
-
-Requires Go.
-
 ```bash
 CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o netwatch .
 ```
 
-## Project Status
+## project Status
 
 **EAL (End of Active Life)**
 
