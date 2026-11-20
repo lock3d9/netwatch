@@ -1,6 +1,4 @@
 # netwatch
-
-a lightweight Linux CLI tool for checking TCP connectivity, measuring latency, and displaying connection statistics.
 (educational project)
 ## usage
 
@@ -25,11 +23,6 @@ CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o netwatch .
 ## project Status
 
 **EAL (End of Active Life)**
-
-Netwatch is no longer under active development. No new features or major updates are planned.
-
-Only bug fixes and maintenance patches may be released.
-
 ## License
 
 See [LICENSE](LICENSE) for details.
